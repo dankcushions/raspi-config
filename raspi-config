@@ -1038,7 +1038,7 @@ do_pi4video() {
       V3*)
         sed $CONFIG -i -e "s/^hdmi_enable_4kp60=/#hdmi_enable_4kp60=/"
         sed $CONFIG -i -e "s/^enable_tvout=/#enable_tvout=/"
-        STATUS="4K and analog disabled"
+        STATUS="4Kp60 and analog TV disabled"
         OPT=0
         ;;
       *)
